@@ -53,8 +53,8 @@ public class SmartHouseSimulator extends JFrame {
 
        
         options = new FirebaseOptions.Builder()
-                .setServiceAccount(new FileInputStream("smarthouse-6da8f-firebase-adminsdk-ngxia-23ab499cb1.json"))
-                .setDatabaseUrl("https://smarthouse-6da8f.firebaseio.com/")
+                .setServiceAccount(new FileInputStream("smarthouse-firebase-adminsdk.json")) //account json
+                .setDatabaseUrl("https://smarthouseurl.firebaseio.com/") //url
                 .build();
         FirebaseApp.initializeApp(options);
 
